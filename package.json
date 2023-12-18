@@ -35,7 +35,7 @@
     "singleQuote": true,
     "trailingComma": "es5"
   },
-  "name": "alurabooks-ds",
+  "name": "alurabooks-ds-develop",
   "author": "kayo ennrique",
   "module": "dist/alurabooks-ds.esm.js",
   "size-limit": [
