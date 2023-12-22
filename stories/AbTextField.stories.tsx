@@ -1,6 +1,6 @@
 import React from 'react';
 import { ComponentMeta, ComponentStory } from '@storybook/react';
-import { AbTextField, AbTextFieldProps } from '../src/components/AbTextField'
+import { AbTextField, AbTextFieldProps } from '../src';
 
 export default {
   title: 'Components/AbTextField',

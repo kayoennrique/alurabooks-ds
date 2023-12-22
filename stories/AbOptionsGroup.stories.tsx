@@ -1,6 +1,6 @@
 import React from "react";
-import { AbOptionsGroup, AbOptionsGroupProps } from '../src'
-import { ComponentMeta, ComponentStory } from '@storybook/react'
+import { AbOptionsGroup, AbOptionsGroupProps } from '../src';
+import { ComponentMeta, ComponentStory } from '@storybook/react';
 
 export default {
     title: 'Components/AbOptionsGroup',
@@ -9,7 +9,7 @@ export default {
 
 const Template: ComponentStory<typeof AbOptionsGroup> = (args) => <AbOptionsGroup {...args}/>
 
-export const Standard = Template.bind({})
+export const Standard = Template.bind({});
 
 Standard.args = {
     options: [

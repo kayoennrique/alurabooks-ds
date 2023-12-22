@@ -1,5 +1,5 @@
 import React from "react";
-import { AbTag, AbTagProps } from '../src/components/AbTag';
+import { AbTag, AbTagProps } from '../src';
 import { ComponentMeta, ComponentStory } from '@storybook/react'
 
 export default {

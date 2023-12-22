@@ -12,7 +12,7 @@ const CardStyled = styled.div`
     border-radius: 10px;
 `;
 
-export const Card = ({ children }: CardProps) => {
+export const AbCard = ({ children }: CardProps) => {
     return (
         <CardStyled>
             {children}
