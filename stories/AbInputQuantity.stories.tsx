@@ -11,7 +11,7 @@ export default {
 } as ComponentMeta<typeof AbInputQuantity>;
 
 const Template: ComponentStory<typeof AbInputQuantity> = () => {
-  const [value, setValue] = useState(0)
+  const [value, setValue] = useState(3)
 
   return <AbInputQuantity value={value} onChange={setValue} />
 };

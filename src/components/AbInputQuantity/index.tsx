@@ -41,20 +41,21 @@ const LabelStylized = styled.label`
 `;
 
 export interface AbInputQuantityProps {
-    onChange: (value:number) => void
+    onChange: (value: number) => void
     value: number
 }
 
-export const AbInputQuantity = ({ onChange, value } : AbInputQuantityProps) => {
+export const AbInputQuantity = ({ onChange, value }: AbInputQuantityProps) => {
 
 
     return (
         <ContainerStylized>
             <LabelStylized>Quantidade</LabelStylized>
             <FlexContainerStylized>
-                <StylizedButton onClick={() => onChange(value - 1)}>
+                {value !== 0 && <StylizedButton
+                    onClick={() => onChange(value - 1)}>
                     -
-                </StylizedButton>
+                </StylizedButton>}
                 <SpanStylized>
                     {value}
                 </SpanStylized>
